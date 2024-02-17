@@ -33,5 +33,5 @@ npm run setup-dev
 Start a development server:
 
 ```bash
-npm run local
+npm run start
 ```
