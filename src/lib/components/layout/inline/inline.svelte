@@ -6,7 +6,7 @@
 	type Alignment = (typeof InlineAlignmentValues)[number];
 
 	export let gap: Gap = 'gap-x-2';
-	export let alignment: Alignment = 'items-center';
+	export let alignment: Alignment = 'none';
 	export let lineWrap: boolean = true;
 
 	$: props = {

@@ -12,6 +12,6 @@ export const InlineGapValues = [
 	'gap-x-9'
 ] as const;
 
-export const InlineAlignmentValues = ['items-start', 'items-center', 'items-end'] as const;
+export const InlineAlignmentValues = ['items-start', 'items-center', 'items-end', 'none'] as const;
 
 export { Inline };

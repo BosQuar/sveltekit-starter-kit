@@ -19,10 +19,12 @@ const secondDefault: Handle = async ({ event, resolve }) => {
 
 export const handle = sequence(handleI18n, secondDefault);
 
-export const handleError: HandleServerError = ({ message, event }) => {
+export const handleError: HandleServerError = ({ message, event, error }) => {
 	if (message.includes('Not found') && event.url.pathname.includes('home')) {
 		redirect(307, '/home');
 	}
+
+	console.log(error);
 
 	return {
 		message: 'Whoops! Something went wrong.'
