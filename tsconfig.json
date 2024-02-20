@@ -9,12 +9,6 @@
 		"skipLibCheck": true,
 		"moduleResolution": "node",
 		"sourceMap": true,
-		"strict": true,
-		"paths": {
-			"$lib": ["./src/lib"],
-			"$lib/*": ["./src/lib/*"],
-			"$paraglide": ["./src/paraglide"],
-			"$paraglide/*": ["./src/paraglide/*"]
-		}
+		"strict": true
 	}
 }

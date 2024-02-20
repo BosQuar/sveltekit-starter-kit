@@ -1,1 +1,1 @@
-home
+<!-- Add explanation about tools -->

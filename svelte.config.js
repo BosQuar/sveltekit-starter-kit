@@ -10,7 +10,6 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$lib: './src/lib',
-			$ui: './src/ui',
 			$paraglide: './src/paraglide'
 		},
 		// Need for crawling to work until
