@@ -20,13 +20,13 @@
 >
 	<Form.Field name="title" {config}>
 		<Form.Label>Title</Form.Label>
-		<Form.Input></Form.Input>
-		<Form.Validation></Form.Validation>
+		<Form.Input />
+		<Form.Validation />
 	</Form.Field>
 	<Form.Field name="content" {config}>
 		<Form.Label>Content</Form.Label>
-		<Form.Input></Form.Input>
-		<Form.Validation></Form.Validation>
+		<Form.Textarea />
+		<Form.Validation />
 	</Form.Field>
 	<Form.Button class="my-4" type="submit">Create</Form.Button>
 </Form.Root>

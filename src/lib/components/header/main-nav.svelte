@@ -33,7 +33,7 @@
 					: 'text-foreground/60'
 			)}
 		>
-			{m.headerNavClientOnly()}
+			{m.headerNavServerOnly()}
 		</a>
 		<a
 			href={getRouteWithLang('/client-only')}
@@ -44,7 +44,7 @@
 					: 'text-foreground/60'
 			)}
 		>
-			{m.headerNavServerOnly()}
+			{m.headerNavClientOnly()}
 		</a>
 	</nav>
 </nav>

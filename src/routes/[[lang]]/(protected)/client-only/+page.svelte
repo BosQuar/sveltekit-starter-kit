@@ -5,6 +5,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import { Input } from '$lib/components/ui/input';
 	import Label from '$lib/components/ui/label/label.svelte';
+	import Textarea from '$lib/components/ui/textarea/textarea.svelte';
 	import { X } from 'lucide-svelte';
 
 	export let data;
@@ -39,7 +40,7 @@
 	</Label>
 	<Label>
 		Content
-		<Input name="content" bind:value={content} />
+		<Textarea name="content" bind:value={content} />
 	</Label>
 	<Button type="submit" class="mt-4">Create</Button>
 </form>
@@ -68,7 +69,7 @@
 {#await getNotes()}
 	loading
 {:then notes}
-	<p class="my-2">Fetched as an SPA</p>
+	<p class="my-2">Fetched in client as in SPA:s</p>
 	<Inline>
 		{#each data.notes as note}
 			<div class="card w-[200px] border rounded-md p-4">
