@@ -22,6 +22,9 @@
 			method: 'POST',
 			body: JSON.stringify({ title, content })
 		});
+
+		title = '';
+		content = '';
 		const notes: Note[] = await response.json();
 		data.notes = notes;
 	}
