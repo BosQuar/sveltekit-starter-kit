@@ -59,7 +59,7 @@
 					<Form.Validation />
 				</Form.Item>
 			</Form.Field>
-			<Button class="w-full mt-4">{m.registerFormCreateUser()}</Button>
+			<Button type="submit" class="w-full mt-4">{m.registerFormCreateUser()}</Button>
 		</Form.Root>
 		<Stack alignment="items-center" fullWidth>
 			<p class="text-sm text-muted-foreground font-normal">
