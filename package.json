@@ -18,7 +18,7 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"postinstall": "paraglide-js compile --project ./project.inlang",
 		"preview": "vite preview",
-		"setup-dev": "prisma generate && prisma migrate dev && prisma db seed",
+		"setup-dev": "prisma generate && prisma db push && prisma db seed",
 		"test:unit": "vitest"
 	},
 	"dependencies": {
