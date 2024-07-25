@@ -7,7 +7,7 @@
 		"seed": "node --require tsconfig-paths/register prisma/seed.js"
 	},
 	"scripts": {
-		"start": "vite dev",
+		"start": "vite dev --host 0.0.0.0",
 		"build": "paraglide-js compile --project ./project.inlang && vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
